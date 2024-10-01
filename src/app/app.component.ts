@@ -5,7 +5,7 @@ import { MenusComponent } from "./menus/menus.component";
 @Component({
   selector: 'app-root',
   standalone: true,
-  imports: [RouterOutlet, MenusComponent],
+  imports: [ MenusComponent,RouterOutlet],
   templateUrl: './app.component.html',
   styleUrl: './app.component.css'
 })
